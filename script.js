@@ -1,4 +1,4 @@
-let money, time;
+/* let money, time;
 function start() {
 	money = +prompt("Ваш бюджет на месяц?", '');
 	time = prompt('Введите дату в формате YYYY-MM-DD', '');
@@ -80,7 +80,20 @@ let appData = {
 };
 for (let key in appData) {
     console.log("Наша программа включает в себя данные: " + key + " - " + appData[key]);
-}
+} */
 
-
+// let x = 5; alert( x++ )
+// let a = []
+// alert (a + false - null + true)
+// let y = 1; 
+// let x = y = 2; 
+// alert(x);
+// alert([ ] + 1 + 2)
+// alert( "1"[0] )
+// alert(2 && 1 && null && 0 && undefined)
+// alert (!!( a && b ))
+// alert (a && b)
+// alert( null || 2 && 3 || 4 )
+// alert( +"Infinity" )
+alert(0 || "" || 2 || undefined || true || falsе)
 
