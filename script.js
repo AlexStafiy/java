@@ -82,18 +82,18 @@ for (let key in appData) {
     console.log("Наша программа включает в себя данные: " + key + " - " + appData[key]);
 } */
 
-// let x = 5; alert( x++ )
+// let x = 5; alert( x++ )  6
 // let a = []
-// alert (a + false - null + true)
+// alert (a + false - null + true)  NaN
 // let y = 1; 
-// let x = y = 2; 
+// let x = y = 2;           2
 // alert(x);
-// alert([ ] + 1 + 2)
-// alert( "1"[0] )
-// alert(2 && 1 && null && 0 && undefined)
+// alert([ ] + 1 + 2)      "12"
+// alert( "1"[0] )          1
+// alert(2 && 1 && null && 0 && undefined)      null
 // alert (!!( a && b ))
 // alert (a && b)
 // alert( null || 2 && 3 || 4 )
 // alert( +"Infinity" )
-alert(0 || "" || 2 || undefined || true || falsе)
+// alert(0 || "" || 2 || undefined || true || falsе)   2
 
